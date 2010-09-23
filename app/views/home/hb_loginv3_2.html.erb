@@ -1,0 +1,191 @@
+<style type="text/css">
+	body {
+		font-size: small;
+		font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+		color: #000000;
+		background-image: url(images/background.jpg);
+		background-color: #990000;
+		margin: 0;
+	}
+	img {
+		border: 0 none;
+	}
+	a {
+		text-decoration: none;
+	}
+	div#constraint {
+		background-color: #f2f2f2;
+		border: 2px solid #000000;
+		width: 800px;
+		margin: 0 auto;
+	}
+	div#header {
+		background-color: #ffffff;
+		background-image: url(images/bar_bg.gif);
+		background-repeat: repeat-x;
+		background-position: bottom left;
+		padding-bottom: 22px;
+	}
+	div#centerblock {
+		margin: 0;
+		padding: 20px 0 70px 0;
+		background-image: url(images/footer.gif);
+		background-position: bottom left;
+		background-repeat: no-repeat;
+	}
+	form#hbloginF {
+		border: 0 none;
+		float: left;
+	}
+	form#hbloginF fieldset {
+		border: 0 none;
+		width: 18em;
+		padding: 0;
+		margin: 0 30px 0 180px;
+	}
+	h3.caption {
+		background-image: url(images/bar_bg.gif);
+		background-repeat: repeat-x;
+		background-color: #e1979b;
+		color: #ffffff;
+		font-size: 1em;
+		text-align: center;
+		padding: .2em 0;
+		border: 2px solid #c0c0c0;
+		margin: 0;
+	}
+	dl.formfields {
+		margin: 0;
+		padding: .5em;
+		border-right: 2px solid #c0c0c0;
+		border-bottom: 2px solid #c0c0c0;
+		border-left: 2px solid #c0c0c0;
+	}
+	dl.formfields dt {
+		float: left;
+		clear: left;
+		position: relative;
+		padding: 0;
+		margin: 0 1em 0 0;
+		font-size: .7em;
+		width: 9em;
+		font-family: arial;
+		font-weight: bold;
+	}
+
+	dl.formfields dt label {
+		line-height: 2em;
+	}
+
+	dl.formfields dd {
+		margin: 0 0 .5em 0;
+		clear: right;
+	}
+	dl.formfields dd input {
+		margin: 0;
+	}
+	input.connect {
+		font: Bold 10pt "Arial";
+		height: 25px;
+		width: 85px;
+		background: #ccc;
+		color: #000;
+		
+	}
+	a.faqlink {
+		font-family: arial, helvitica;
+	}
+	img.barrow {
+		display: inline-block;
+		margin: 0 10px 0 0;
+	}
+	ul {
+		list-style: none;
+	}
+	ul#centerlinks li {
+		margin: 0 0 10px 0;
+	}
+	ul#bottom {
+		margin: 0;
+		padding: 5px 0 0 0;
+	}
+	ul#bottom li {
+		display: block;
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	ul#bottom li.first {
+		width: 150px;
+	}
+	ul#bottom li.first p {
+		text-align: center;
+		font-size: .8em;
+		margin-top: 25px;
+	}
+	ul#bottom li.second {
+		width: 250px;
+		text-align: center;
+		padding-top: 25px;
+	}
+	ul#bottom li.third {
+		width: 370px;
+		text-align: right;
+		margin-left: 20px;
+	}
+	ul#bottom li.third a.ncua {
+		float: left;
+		margin-left: 45px;
+	}
+	ul#bottom li.third p {
+		font-size: .8em;
+		text-align: center;
+		margin-top: 0;
+	}
+	.clearfix:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+	.clearfix {
+		height: 1%;     /* triggers hasLayout */
+	}
+	div#footer {
+		text-align: center;
+		padding: 0;
+		margin: 30px 0 15px 0;
+	}
+	div#footer span {
+		vertical-align: top;
+		font-size: .8em;
+		line-height: 2em;
+		color: #c0c0c0;
+	}
+	/********/
+	</style>
+
+<div id="constraint" class="clearfix">
+		<div id="header">
+			<%= image_tag "New Image.JPG", :alt=>"" %>
+		</div>
+		<div id="centerblock" class="clearfix">
+			<form id="hbloginF" method="post" action="https://www.classact.org/hbv3_2/login.asp">
+				<fieldset>
+					<h3 class="caption">CyberBranch @ Home</h3>
+					<dl class="formfields">
+						<dt><label for="hbloginFaccount">Account Number:</label></dt>
+						<dd><input name="account" id="hbloginFaccount" type="text" size="15"/></dd>
+						<dt><label for="hbloginFpin">PIN:</label></dt>
+						<dd><input name="pin" id="hbloginFpin" type="password" size="15"/></dd>
+						<dt>&nbsp;</dt>
+						<dd><input type="submit" value="Connect" class="connect" /></dd>
+					</dl>
+				</fieldset>
+			</form>
+			<ul id="centerlinks">
+				<li><%= image_tag "/barrow.gif", :alt=>"", :class=>"barrow" %><%= link_to "CyberBranch FAQ", hb_faq_path, :class=>"faqlink", :rel=>"external" %></li>
+			</ul>
+		</div>
+	</div>

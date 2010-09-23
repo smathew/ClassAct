@@ -1,0 +1,3314 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-22 13:03:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/rails.png" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-22 13:04:08) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-22 13:04:48) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-22 13:05:06) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-22 14:25:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `Date' for #<ActionView::Base:0x2a9baa8>) on line #55 of app/views/home/index.html.erb:
+52: 						<p class="smalltext centertext">
+53: 							Rates Effective
+54: 							<br />
+55: 							<%= ( new Date() ).toLocaleDateString() %>
+56: 						</p>
+57: 						<table>
+58: 							<caption>Loan Rates</caption>
+
+    app/views/home/index.html.erb:55
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-22 14:28:52) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `Date' for #<ActionView::Base:0x4d30358>) on line #55 of app/views/home/index.html.erb:
+52: 						<p class="smalltext centertext">
+53: 							Rates Effective
+54: 							<br />
+55: 							<%= ( new Date() ).toLocaleDateString() %>
+56: 						</p>
+57: 						<table>
+58: 							<caption>Loan Rates</caption>
+
+    app/views/home/index.html.erb:55
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-22 14:28:53) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `Date' for #<ActionView::Base:0x2995218>) on line #55 of app/views/home/index.html.erb:
+52: 						<p class="smalltext centertext">
+53: 							Rates Effective
+54: 							<br />
+55: 							<%= ( new Date() ).toLocaleDateString() %>
+56: 						</p>
+57: 						<table>
+58: 							<caption>Loan Rates</caption>
+
+    app/views/home/index.html.erb:55
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-22 14:28:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `Date' for #<ActionView::Base:0x489f918>) on line #55 of app/views/home/index.html.erb:
+52: 						<p class="smalltext centertext">
+53: 							Rates Effective
+54: 							<br />
+55: 							<%= ( new Date() ).toLocaleDateString() %>
+56: 						</p>
+57: 						<table>
+58: 							<caption>Loan Rates</caption>
+
+    app/views/home/index.html.erb:55
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.9ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-22 14:29:05) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-22 14:33:32) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-22 14:38:53) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-22 15:02:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-22 15:02:40) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-22 15:02:54) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#whatsnew (for 127.0.0.1 at 2010-09-22 15:03:03) [GET]
+Rendering template within layouts/application
+Rendering home/whatsnew
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/whatsnew]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-23 08:08:02) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 281ms (View: 281, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:29:10) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+
+ActionView::TemplateError (undefined method `Date' for #<ActionView::Base:0x300ba60>) on line #21 of app/views/home/rates.html.erb:
+18: 			</p>
+19: 			<a name="shares"></a>
+20: 			<h2>Share Rates</h2>
+21: 			<%= ( new Date() ).toLocaleDateString() %>
+22: 			<table class="rates2">
+23: 				<thead>
+24: 					<tr>
+
+    app/views/home/rates.html.erb:21
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:29:53) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:32:01) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 125ms (View: 109, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:34:34) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+
+ActionView::TemplateError (undefined method `Format' for #<ActionView::Base:0x30484b0>) on line #200 of app/views/home/rates.html.erb:
+197: 			<a name="loans"></a>
+198: 			<h2>Loan Rates</h2>
+199: 			<p>
+200: 				<%= Format(Date.today, "mm/dd/yyyy")  %>
+201: 			</p>
+202: 			<p>
+203: 				<%= link_to "Apply for a loan online!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356&amp;LReqFormIdNr=2251210000216194617&amp;ORIGIN_CHANNEL_ID=4922930000206123721&amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %>
+
+    app/views/home/rates.html.erb:200
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:34:50) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+ERROR: compiling _run_erb_app47views47home47rates46html46erb RAISED compile error
+C:/Rails Projects/websites/ClassAct/app/views/home/rates.html.erb:200: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+...t(( (Date.today, "mm/dd/yyyy")  ).to_s); @output_buffer.conc...
+                              ^
+C:/Rails Projects/websites/ClassAct/app/views/home/rates.html.erb:358: syntax error, unexpected kENSURE, expecting ')'
+C:/Rails Projects/websites/ClassAct/app/views/home/rates.html.erb:360: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47home47rates46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "\t\t\t<h1>Current Rates</h1>\n\t\t\t<ul>\n\t\t\t\t<li>"
+
+; @output_buffer.concat(( link_to "Share Rates", :anchor =>"shares" ).to_s); @output_buffer.concat "</li>\n\t\t\t\t<li>"
+; @output_buffer.concat(( link_to "Share Certificate Rates", :anchor =>"cert" ).to_s); @output_buffer.concat "</li>\n\t\t\t\t<li>"
+; @output_buffer.concat(( link_to "Loan Rates", :anchor =>"loans" ).to_s); @output_buffer.concat "</li>\n\t\t\t</ul>\n\t\t\t<p>\n\t\t\t\tFor more information about Class Act FCU dividends, see our "
+
+
+; @output_buffer.concat(( link_to "Rate and Fee Schedule", ratesch_path ).to_s); @output_buffer.concat ".\n\t\t\t</p>\n\t\t\t<hr />\n\t\t\t<p class=\"smalli centertext\">\n\t\t\t\t"
+
+
+
+; @output_buffer.concat(( link_to image_tag("ncua.gif", :alt => "NCUA"), "http://www.ncua.gov" ).to_s); @output_buffer.concat "<br />\n\t\t\t\tYour savings federally insured to $250,000 by the\n\t\t\t\t<br />\n\t\t\t\tNational Credit Union Administration,\n\t\t\t\t<br />\n\t\t\t\ta U.S. Government Agency\n\t\t\t</p>\n\t\t\t<a name=\"shares\"></a>\n\t\t\t<h2>Share Rates</h2>\n\t\t\t"
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( Date.today ).to_s); @output_buffer.concat "\n\t\t\t<table class=\"rates2\">\n\t\t\t\t<thead>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th>Description</th>\n\t\t\t\t\t\t<th>Dividend Rate</th>\n\t\t\t\t\t\t<th>Annual <br />Percentage<br /> Yield</th>\n\t\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Regular Share Savings<br />$25-$2,499.99<br />$2,500+</td>\n\t\t\t\t\t\t<td><br />.20%<br />.40%</td>\n\t\t\t\t\t\t<td><br />.20%<br />.40%</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Money Market Account:<br />$2,500-$9,999.99<br />$10,000-$24,999.99<br />$25,000+.</td>\n\t\t\t\t\t\t<td><br />.50%<br />.75%<br /> 1.00%</td>\n\t\t\t\t\t\t<td><br />.50%<br /> .75%<br />1.01%</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Summer Savings / Check</td>\n\t\t\t\t\t\t<td>.25</td>\n\t\t\t\t\t\t<td>.26</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>IRA Accumulation</td>\n\t\t\t\t\t\t<td>.50</td>\n\t\t\t\t\t\t<td>.50</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Christmas Club</td>\n\t\t\t\t\t\t<td>.25</td>\n\t\t\t\t\t\t<td>.25</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Summer Savings / Transfer</td>\n\t\t\t\t\t\t<td>.25</td>\n\t\t\t\t\t\t<td>.25</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t\t<p>\n\t\t\t\tShare accounts will be calculated on the daily balance and posted quarterly on the last\n\t\t\t\tday of the current quarter. Dividends will be paid monthly on the daily balance using the\n\t\t\t\tRising Method calculation.\n\t\t\t</p>\n\t\t\t<p class=\"smalli\">\n\t\t\t\tNOTE: If you close one of the above listed accounts before the accrued\n\t\t\t\tdividends are credited, the dividend will not be paid.\n\t\t\t</p>\n\t\t\t<hr />\n\t\t\t<a name=\"cert\"></a>\n\t\t\t<h2>Share Certificate Rates</h2>\n\t\t\t<p>\n\t\t\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( Date.today ).to_s); @output_buffer.concat "\n\t\t\t</p>\n\t\t\t<table class=\"rates2\">\n\t\t\t\t<thead>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th>Description</th>\n\t\t\t\t\t\t<th>Term</th>\n\t\t\t\t\t\t<th>Minimum</th>\n\t\t\t\t\t\t<th>Dividend Rate</th>\n\t\t\t\t\t\t<th>Annual Percentage Yield</th>\n\t\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Share Certificate</td>\n\t\t\t\t\t\t<td>91 Day</td>\n\t\t\t\t\t\t<td>$500</td>\n\t\t\t\t\t\t<td>.99</td>\n\t\t\t\t\t\t<td>1.00</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Share Certificate</td>\n\t\t\t\t\t\t<td>6 Month</td>\n\t\t\t\t\t\t<td>$500</td>\n\t\t\t\t\t\t<td>1.24</td>\n\t\t\t\t\t\t<td>1.25</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Share Certificate</td>\n\t\t\t\t\t\t<td>1 Year</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>1.49</td>\n\t\t\t\t\t\t<td>1.50</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Share Certificate</td>\n\t\t\t\t\t\t<td>18 Month</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>1.59</td>\n\t\t\t\t\t\t<td>1.60</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Share Certificate</td>\n\t\t\t\t\t\t<td>24 Month</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>1.98</td>\n\t\t\t\t\t\t<td>2.00</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Share Certificate</td>\n\t\t\t\t\t\t<td>30 Month</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>2.08</td>\n\t\t\t\t\t\t<td>2.10</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Share Certificate</td>\n\t\t\t\t\t\t<td>36 Month</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>2.32</td>\n\t\t\t\t\t\t<td>2.35</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Share Certificate</td>\n\t\t\t\t\t\t<td>48 Month</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>2.57</td>\n\t\t\t\t\t\t<td>2.60</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>IRA Share Certificate</td>\n\t\t\t\t\t\t<td>6 Month</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>1.24</td>\n\t\t\t\t\t\t<td>1.25</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>IRA Share Certificate</td>\n\t\t\t\t\t\t<td>12 Month</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>1.49</td>\n\t\t\t\t\t\t<td>1.50</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>IRA Share Certificate</td>\n\t\t\t\t\t\t<td>18 Month</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>1.59</td>\n\t\t\t\t\t\t<td>1.60</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>IRA Share Certificate</td>\n\t\t\t\t\t\t<td>24 Month</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>1.98</td>\n\t\t\t\t\t\t<td>2.00</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>IRA Share Certificate</td>\n\t\t\t\t\t\t<td>30 Month</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>2.08</td>\n\t\t\t\t\t\t<td>2.10</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>IRA Share Certificate</td>\n\t\t\t\t\t\t<td>36 Month</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>2.32</td>\n\t\t\t\t\t\t<td>2.35</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>IRA Share Certificate</td>\n\t\t\t\t\t\t<td>48 Month</td>\n\t\t\t\t\t\t<td>$1,000</td>\n\t\t\t\t\t\t<td>2.57</td>\n\t\t\t\t\t\t<td>2.60</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t\t<hr />\n\t\t\t<a name=\"loans\"></a>\n\t\t\t<h2>Loan Rates</h2>\n\t\t\t<p>\n\t\t\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( (Date.today, "mm/dd/yyyy")  ).to_s); @output_buffer.concat "\n\t\t\t</p>\n\t\t\t<p>\n\t\t\t\t"
+
+
+; @output_buffer.concat(( link_to "Apply for a loan online!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356&amp;LReqFormIdNr=2251210000216194617&amp;ORIGIN_CHANNEL_ID=4922930000206123721&amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "\n\t\t\t</p>\n\t\t\t<table class=\"rates2\">\n\t\t\t\t<thead>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<th>Description</th>\n\t\t\t\t\t\t<th>Maximum Amt</th>\n\t\t\t\t\t\t<th>Maximum Term</th>\n\t\t\t\t\t\t<th>Annual Percentage Rate</th>\n\t\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>New  &amp; Used<br />Autos and Light Trucks<br />2009 - 2005 Models:</td>\n\t\t\t\t\t\t<td>100% of Purchase Price or NADA value</td>\n\t\t\t\t\t\t<td>36 Months</td>\n\t\t\t\t\t\t<td>as low as 4.25%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>New  &amp; Used <br />Autos and Light Trucks<br />2009 - 2005 Models:</td>\n\t\t\t\t\t\t<td>100% of Purchase Price or NADA value</td>\n\t\t\t\t\t\t<td>48 Months</td>\n\t\t\t\t\t\t<td>as low as 4.25%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>New  &amp; Used<br />Autos and Light Trucks<br />2009 - 2005 Models:</td>\n\t\t\t\t\t\t<td>100% of Purchase Price or NADA value</td>\n\t\t\t\t\t\t<td>60 Months</td>\n\t\t\t\t\t\t<td>as low as 4.25%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>New  &amp; Used<br />Autos and Light Trucks<br />2009 - 2005 Models:</td>\n\t\t\t\t\t\t<td>Purchase price exceeding $20,000</td>\n\t\t\t\t\t\t<td>72 Months</td>\n\t\t\t\t\t\t<td>as low as 5.25%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel =>"external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Used<br />Autos and Light Trucks<br />2004 - 2000 Models:</td>\n\t\t\t\t\t\t<td>100% of Purchase Price or NADA value</td>\n\t\t\t\t\t\t<td>36 Months</td>\n\t\t\t\t\t\t<td>as low as 5.25%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Used<br />Autos and Light Trucks<br />2004 - 2000 Models:</td>\n\t\t\t\t\t\t<td>100% of Purchase Price or NADA value</td>\n\t\t\t\t\t\t<td>48 Months</td>\n\t\t\t\t\t\t<td>as low as 5.25%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Recreational Vehicles<br />2004 - 2008 Models:</td>\n\t\t\t\t\t\t<td>90% of Purchase Price or NADA value</td>\n\t\t\t\t\t\t<td>36 Months</td>\n\t\t\t\t\t\t<td>as low as 5.50%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Recreational Vehicles<br />2004 - 2008 Models:</td>\n\t\t\t\t\t\t<td>100% of Purchase Price or NADA value</td>\n\t\t\t\t\t\t<td>48 Months</td>\n\t\t\t\t\t\t<td>as low as 5.75%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Recreational Vehicles<br />2004 - 2008 Models:</td>\n\t\t\t\t\t\t<td>100% of Purchase Price or NADA value</td>\n\t\t\t\t\t\t<td>60 Months<br />(other terms available)</td>\n\t\t\t\t\t\t<td>as low as 6.00%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>New and Used Boats</td>\n\t\t\t\t\t\t<td>90% of Purchase Price</td>\n\t\t\t\t\t\t<td>60 Months<br />(other terms available)</td>\n\t\t\t\t\t\t<td>as low as 6.00%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Personal/Signature</td>\n\t\t\t\t\t\t<td>$20,000</td>\n\t\t\t\t\t\t<td>48 Months</td>\n\t\t\t\t\t\t<td>as low as 7.50%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Classic Cash Line of Credit</td>\n\t\t\t\t\t\t<td>$15,000</td>\n\t\t\t\t\t\t<td>Open-End</td>\n\t\t\t\t\t\t<td>15.00</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>MasterCard\256 Class A</td>\n\t\t\t\t\t\t<td>$5,000</td>\n\t\t\t\t\t\t<td>Open-End</td>\n\t\t\t\t\t\t<td>10.90</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=0060328220305160521 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>MasterCard\256 Gold</td>\n\t\t\t\t\t\t<td>$15,000</td>\n\t\t\t\t\t\t<td>Open-End</td>\n\t\t\t\t\t\t<td>9.90</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=1940010000216195530 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Share Secured</td>\n\t\t\t\t\t\t<td>100% of Shares</td>\n\t\t\t\t\t\t<td>48 Months</td>\n\t\t\t\t\t\t<td>3.75 + Share Rate</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Share Certificate Secured</td>\n\t\t\t\t\t\t<td>100% of Shares</td>\n\t\t\t\t\t\t<td>Certificate Maturity Date</td>\n\t\t\t\t\t\t<td>2.75 + Cert Rate</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Home Equity Loans</td>\n\t\t\t\t\t\t<td>80% Loan to value</td>\n\t\t\t\t\t\t<td>15 years / 10 years draw**</td>\n\t\t\t\t\t\t<td>as low as 3.25%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( mail_to "tmeibers@classact.org", "Contact Us!" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Closed End Fixed Rate<br /><i>2nd Mortgage</i></td>\n\t\t\t\t\t\t<td>$100,000</td>\n\t\t\t\t\t\t<td>10 years</td>\n\t\t\t\t\t\t<td>as low as 5.00%*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( mail_to "tmeibers@classact.org", "Contact Us!" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Mortgage Loans<br /><i>1st Mortgages</i></td>\n\t\t\t\t\t\t<td>80% of appraised value</td>\n\t\t\t\t\t\t<td>15 years</td>\n\t\t\t\t\t\t<td>Please call for quote<br /> 502-212-3145*</td>\n\t\t\t\t\t\t<td>"
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Apply Now!", "http://www.mycumortgagehomeloans.com/default.asp?siteId=B342883A-CB8C-4E07-BD50-09B8D10FDF1E", :rel => "external" ).to_s); @output_buffer.concat "</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t\t<p class=\"smalli\">\n\t\t\t\t* Late Charges: A $20 late payment charge will be assessed on payments received 15 days from date payment is due. \n\t\t\t\t**Real estate late payment charge will be assessed at 5% of the payment amount for payments received 15 days from date \n\t\t\t\tpayment is due. ***Rate reflects discounts applied for payroll deduction, direct deposit and down payment. Annual Percentage \n\t\t\t\tRate. Effective September 30, 2008, Prime Rate is 4.50%. Rates are subject to change. Members must meet credit requirements. \n\t\t\t\tBased on borrower qualifications. Higher rates may be applicable based on credit performance, credit terms, and model year of \n\t\t\t\tvehicle. Not available for the refinancing of existing Class Act FCU loans.\n\t\t\t</p>"
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Rails Projects/websites/ClassAct/app/views/home/rates.html.erb:360:in `compile!'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1338:in `perform_action_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/Rails Projects/websites/ClassAct/app/views/home/rates.html.erb:200: syntax error, unexpected ')', expecting tCOLON2 or '[' or '.'
+...t(( (Date.today, "mm/dd/yyyy")  ).to_s); @output_buffer.conc...
+                              ^
+C:/Rails Projects/websites/ClassAct/app/views/home/rates.html.erb:358: syntax error, unexpected kENSURE, expecting ')'
+C:/Rails Projects/websites/ClassAct/app/views/home/rates.html.erb:360: syntax error, unexpected kEND, expecting ')') on line #200 of app/views/home/rates.html.erb:
+197: 			<a name="loans"></a>
+198: 			<h2>Loan Rates</h2>
+199: 			<p>
+200: 				<%= (Date.today, "mm/dd/yyyy")  %>
+201: 			</p>
+202: 			<p>
+203: 				<%= link_to "Apply for a loan online!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356&amp;LReqFormIdNr=2251210000216194617&amp;ORIGIN_CHANNEL_ID=4922930000206123721&amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %>
+
+    app/views/home/rates.html.erb:360:in `compile!'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:35:14) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:37:47) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:38:08) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:40:05) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:40:10) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 08:40:11) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:43:39) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 125ms (View: 125, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:43:39) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 08:43:40) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:43:42) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (78.1ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 08:43:43) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:46:36) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #200 of app/views/home/rates.html.erb:
+197: 			<a name="loans"></a>
+198: 			<h2>Loan Rates</h2>
+199: 			<p>
+200: 				<%= Time.now("%d-%b-%y") %>
+201: 			</p>
+202: 			<p>
+203: 				<%= link_to "Apply for a loan online!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356&amp;LReqFormIdNr=2251210000216194617&amp;ORIGIN_CHANNEL_ID=4922930000206123721&amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %>
+
+    app/views/home/rates.html.erb:200:in `initialize'
+    app/views/home/rates.html.erb:200:in `now'
+    app/views/home/rates.html.erb:200
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:47:06) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 08:47:06) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:47:32) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 08:47:33) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:48:23) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 08:48:24) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:48:33) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 141ms (View: 125, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 08:48:33) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:48:54) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 08:48:55) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:49:21) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 08:49:22) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:49:36) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (78.1ms)
+Completed in 125ms (View: 125, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 08:49:36) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:49:59) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 08:50:00) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 08:50:08) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 08:50:09) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-23 08:50:15) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-23 08:52:17) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-23 08:52:17) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 08:57:00) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 08:57:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 08:57:09) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-23 09:26:48) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#savings (for 127.0.0.1 at 2010-09-23 10:59:22) [GET]
+Rendering template within layouts/application
+Rendering home/savings
+
+ActionView::TemplateError (undefined local variable or method `certs' for #<ActionView::Base:0x32d84a8>) on line #22 of app/views/layouts/_header.html.erb:
+19: 					<li><%= link_to "Full Service Checking Accounts", checking_path %></li>
+20: 					<li><%= link_to "Savings Accounts", savings_path %></li>
+21: 					<li><%= link_to "Low Rate Loans", loans_path %></li>
+22: 					<li><%= link_to "Certificates / IRA's", certs._path %></li>
+23: 				</ul>
+24: 			</li>
+25: 			<li>
+
+    app/views/layouts/_header.html.erb:22
+    app/views/layouts/application.html.erb:22
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.1ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#savings (for 127.0.0.1 at 2010-09-23 11:00:07) [GET]
+Rendering template within layouts/application
+Rendering home/savings
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 109ms (View: 94, DB: 0) | 200 OK [http://localhost/savings]
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:00:33) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:00:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:01:08) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/home/ratesch]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 11:01:08) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:01:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:01:10) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#savings (for 127.0.0.1 at 2010-09-23 11:01:19) [GET]
+Rendering template within layouts/application
+Rendering home/savings
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/savings]
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:01:21) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:01:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#savings (for 127.0.0.1 at 2010-09-23 11:01:47) [GET]
+Rendering template within layouts/application
+Rendering home/savings
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/savings]
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:01:49) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:01:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:02:17) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:02:17) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#savings (for 127.0.0.1 at 2010-09-23 11:02:33) [GET]
+Rendering template within layouts/application
+Rendering home/savings
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/savings]
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:02:35) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:02:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-23 11:15:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#locations (for 127.0.0.1 at 2010-09-23 11:15:26) [GET]
+Rendering template within layouts/application
+Rendering home/locations
+ERROR: compiling _run_erb_app47views47home47locations46html46erb RAISED compile error
+C:/Rails Projects/websites/ClassAct/app/views/home/locations.html.erb:29: syntax error, unexpected tIVAR, expecting kDO or '{' or '('
+...lassact.org", members@classact.org ).to_s); @output_buffer.c...
+                              ^
+Function body:           def _run_erb_app47views47home47locations46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"main\">\n      <div class=\"innercontent clearfix\">\n      \t<div class=\"padding\">\n          <h1>Locations</h1>\n          \n<table class=\"locations\">\n                <tr>\n                  <th colspan=\"2\"> Main Branch Info\n                  </th>\n                </tr>\n                <tr>\n                  <td>Location:</td>\n                  <td>3620 Fern Valley Road, Louisville, KY  40219</td>\n                </tr>\n                <tr>\n                  <td>Phone:</td>\n                  <td>(502) 964-7575</td>\n                </tr>\n                <tr>\n                  <td></td>\n                  <td>(800) 292-2960 (Toll-free)</td>\n                </tr>\n                <tr>\n                  <td>Fax:</td>\n                  <td>(502) 966-2061</td>\n                </tr>\n                <tr>\n                  <td>Email:</td>\n                  <td>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( mail_to "members@classact.org", members@classact.org ).to_s); @output_buffer.concat "</td>\n                </tr>\n                <tr>\n                  <td>Hours:</td>\n                  <td>Mon - Thur (Lobby): 9:30 am - 5:00 pm<br />\n                    Mon - Thur (Drive-Thru): 9:00 am - 5:00 pm<br />\n                    Friday (Lobby): 9:00 am - 5:00 pm<br />\n                    Friday (Drive-Thru): 9:00 am - 5:30 pm</td>\n                </tr>\n                <tr>\n                  <td colspan=\"2\">ATM 24 HOURS</td>\n                </tr>\n            </table>\n \n              \n          <table class=\"locations\">\n            <tr>\n              <th colspan=\"2\">&nbsp; </th>\n            </tr>\n            <tr>\n              <th colspan=\"2\">U of L Branch<br />\n                (Students only)</th>\n            </tr>\n            <tr>\n              <td>Location:</td>\n              <td>SAC Building<br />\n                Food Court<br />\n                <br /></td>\n            </tr>\n            <tr>\n              <td>Phone:</td>\n              <td>(502) 852-7321</td>\n            </tr>\n            <tr>\n              <td>Hours:</td>\n              <td>Mon - Thur: 9:00 - 4:30<br />\n                Friday: 9:00 - 5:00</td>\n            </tr>\n            <tr>\n              <td colspan=\"2\">ATM 24 HOURS</td>\n            </tr>\n          </table>\n           \n           \n\t\t  <table class=\"locations\">\n             <tr>\n               <td colspan=\"2\">&nbsp; </td>\n             </tr>\n             <tr>\n               <th colspan=\"2\">CU Center #1 Branch</th>\n             </tr>\n             <tr>\n               <td>Location:</td>\n               <td>4917-B Dixie Hwy<br />                 Louisville, KY  40216<br />Sears Essentials Shopping Plaza</td>\n             </tr>\n             <tr>\n               <td>Phone:</td>\n               <td>(502) 448-1686</td>\n             </tr>\n             <tr>\n               <td>Hours:</td>\n               <td>Mon - Friday: 9:00 - 7:00<br />Saturday: 9:00 - 2:00</td>\n             </tr>\n             <tr>\n               <td colspan=\"2\">Open on Christmas Eve and New Year\222s Eve from 9 \226 noon but will be closed on Christmas Day and New Year\222s Day.  The shared branches will be open 9 \226 2 as usual on Saturday, December 26th and January 2nd.  ATM 24 HOURS</td>\n             </tr>\n          </table>\n      \n<table class=\"locations\">\n                 <tr>\n                   <th colspan=\"2\">CU Center #2 Branch</th>\n                 </tr>\n                 <tr>\n                   <td>Location:</td>\n                   <td>2925 Goose Creek Rd.<br />\n                     Louisville, KY  40241<br />\n                     Next to Wicks Pizza <br />\n                   </td>\n                 </tr>\n                <tr>\n                     <td>Phone:</td>\n                 <td>(502) 429-0068</td>\n                </tr>\n                   <tr>\n                     <td>Hours:</td>\n                     <td>Mon - Friday: 9:00 - 7:00<br />Saturday: 9:00 - 2:00</td>\n                   </tr>\n                <tr>\n                 <td colspan=\"2\">Open on Christmas Eve and New Year\222s Eve from 9 \226 noon but will be closed on Christmas Day and New Year\222s Day.  The shared branches will be open 9 \226 2 as usual on Saturday, December 26th and January 2nd.  ATM 24 HOURS</td>\n\n                </tr>\n              </table>\n           \n\t\t\t  <table class=\"locations\">\n                 <tr>\n                   <th colspan=\"2\">Emergency Numbers</th>\n                 </tr>\n                 <tr>\n                   <td>MasterCard Lost or Stolen</td>\n                   <td>(800) 325-3678</td>\n                 </tr>\n                 <tr>\n                   <td>Express\n                     Check Card Lost or Stolen</td>\n                   <td>(800) 528-2273</td>\n                 </tr>\n                 <tr>\n                   <td>MasterCard Balance Inquiry</td>\n                   <td>(800) 237-6211</td>\n                 </tr> \n              </table>\n              \n              \n\t\t\t  <a name=\"holiday\" id=\"holiday\"></a>\n\t\t\t  <table class=\"locations\">\n                  <tr>\n                    <th colspan=\"2\">Holiday Schedule</th>\n                  </tr>\n                  <tr>\n                    <td colspan=\"2\"></td>\n                  </tr>\n                  <tr> \n                    <td class=\"iright\"> January 18, 2010</td>\n                    <td>Martin Luther King Day</td>\n                  </tr>\n                  <tr> \n                    <td class=\"iright\"> February 15, 2010</td>\n                    <td>Presidents Day</td>\n                  </tr>\n                  <tr>\n                    <td class=\"iright\"> May 31, 2010</td>\n                    <td>Memorial Day</td>\n                  </tr>\n                  <tr> \n                    <td class=\"iright\">July 5, 2010</td>\n                    <td>Independence Day</td>\n                  </tr>\n                  <tr>\n                    <td class=\"iright\">September 5, 2010</td>\n                    <td>Labor Day</td>\n                  </tr>\n                  <tr>\n                    <td class=\"iright\">October 11, 2010</td>\n                    <td>Columbus Day</td>\n                  </tr>\n                  <tr>\n                    <td class=\"iright\">November 25, 2010</td>\n                    <td>Thanksgiving Day</td>\n                  </tr>\n                  <tr>\n                    <td class=\"iright\">December 24, 2010</td>\n                    <td>Christmas Eve</td>\n                  </tr>\n              </table>\n          \n          \n      \t</div>\n      \t</div>\n      </div>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Rails Projects/websites/ClassAct/app/views/home/locations.html.erb:190:in `compile!'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1338:in `perform_action_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/Rails Projects/websites/ClassAct/app/views/home/locations.html.erb:29: syntax error, unexpected tIVAR, expecting kDO or '{' or '('
+...lassact.org", members@classact.org ).to_s); @output_buffer.c...
+                              ^) on line #29 of app/views/home/locations.html.erb:
+26:                 </tr>
+27:                 <tr>
+28:                   <td>Email:</td>
+29:                   <td><%= mail_to "members@classact.org", members@classact.org %></td>
+30:                 </tr>
+31:                 <tr>
+32:                   <td>Hours:</td>
+
+    app/views/home/locations.html.erb:190:in `compile!'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#locations (for 127.0.0.1 at 2010-09-23 11:15:37) [GET]
+Rendering template within layouts/application
+Rendering home/locations
+ERROR: compiling _run_erb_app47views47home47locations46html46erb RAISED compile error
+C:/Rails Projects/websites/ClassAct/app/views/home/locations.html.erb:29: syntax error, unexpected tIVAR, expecting kDO or '{' or '('
+...lassact.org", members@classact.org ).to_s); @output_buffer.c...
+                              ^
+Function body:           def _run_erb_app47views47home47locations46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"main\">\n      <div class=\"innercontent clearfix\">\n      \t<div class=\"padding\">\n          <h1>Locations</h1>\n          \n<table class=\"locations\">\n                <tr>\n                  <th colspan=\"2\"> Main Branch Info\n                  </th>\n                </tr>\n                <tr>\n                  <td>Location:</td>\n                  <td>3620 Fern Valley Road, Louisville, KY  40219</td>\n                </tr>\n                <tr>\n                  <td>Phone:</td>\n                  <td>(502) 964-7575</td>\n                </tr>\n                <tr>\n                  <td></td>\n                  <td>(800) 292-2960 (Toll-free)</td>\n                </tr>\n                <tr>\n                  <td>Fax:</td>\n                  <td>(502) 966-2061</td>\n                </tr>\n                <tr>\n                  <td>Email:</td>\n                  <td>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( mail_to "members@classact.org", members@classact.org ).to_s); @output_buffer.concat "</td>\n                </tr>\n                <tr>\n                  <td>Hours:</td>\n                  <td>Mon - Thur (Lobby): 9:30 am - 5:00 pm<br />\n                    Mon - Thur (Drive-Thru): 9:00 am - 5:00 pm<br />\n                    Friday (Lobby): 9:00 am - 5:00 pm<br />\n                    Friday (Drive-Thru): 9:00 am - 5:30 pm</td>\n                </tr>\n                <tr>\n                  <td colspan=\"2\">ATM 24 HOURS</td>\n                </tr>\n            </table>\n \n              \n          <table class=\"locations\">\n            <tr>\n              <th colspan=\"2\">&nbsp; </th>\n            </tr>\n            <tr>\n              <th colspan=\"2\">U of L Branch<br />\n                (Students only)</th>\n            </tr>\n            <tr>\n              <td>Location:</td>\n              <td>SAC Building<br />\n                Food Court<br />\n                <br /></td>\n            </tr>\n            <tr>\n              <td>Phone:</td>\n              <td>(502) 852-7321</td>\n            </tr>\n            <tr>\n              <td>Hours:</td>\n              <td>Mon - Thur: 9:00 - 4:30<br />\n                Friday: 9:00 - 5:00</td>\n            </tr>\n            <tr>\n              <td colspan=\"2\">ATM 24 HOURS</td>\n            </tr>\n          </table>\n           \n           \n\t\t  <table class=\"locations\">\n             <tr>\n               <td colspan=\"2\">&nbsp; </td>\n             </tr>\n             <tr>\n               <th colspan=\"2\">CU Center #1 Branch</th>\n             </tr>\n             <tr>\n               <td>Location:</td>\n               <td>4917-B Dixie Hwy<br />                 Louisville, KY  40216<br />Sears Essentials Shopping Plaza</td>\n             </tr>\n             <tr>\n               <td>Phone:</td>\n               <td>(502) 448-1686</td>\n             </tr>\n             <tr>\n               <td>Hours:</td>\n               <td>Mon - Friday: 9:00 - 7:00<br />Saturday: 9:00 - 2:00</td>\n             </tr>\n             <tr>\n               <td colspan=\"2\">Open on Christmas Eve and New Year\222s Eve from 9 \226 noon but will be closed on Christmas Day and New Year\222s Day.  The shared branches will be open 9 \226 2 as usual on Saturday, December 26th and January 2nd.  ATM 24 HOURS</td>\n             </tr>\n          </table>\n      \n<table class=\"locations\">\n                 <tr>\n                   <th colspan=\"2\">CU Center #2 Branch</th>\n                 </tr>\n                 <tr>\n                   <td>Location:</td>\n                   <td>2925 Goose Creek Rd.<br />\n                     Louisville, KY  40241<br />\n                     Next to Wicks Pizza <br />\n                   </td>\n                 </tr>\n                <tr>\n                     <td>Phone:</td>\n                 <td>(502) 429-0068</td>\n                </tr>\n                   <tr>\n                     <td>Hours:</td>\n                     <td>Mon - Friday: 9:00 - 7:00<br />Saturday: 9:00 - 2:00</td>\n                   </tr>\n                <tr>\n                 <td colspan=\"2\">Open on Christmas Eve and New Year\222s Eve from 9 \226 noon but will be closed on Christmas Day and New Year\222s Day.  The shared branches will be open 9 \226 2 as usual on Saturday, December 26th and January 2nd.  ATM 24 HOURS</td>\n\n                </tr>\n              </table>\n           \n\t\t\t  <table class=\"locations\">\n                 <tr>\n                   <th colspan=\"2\">Emergency Numbers</th>\n                 </tr>\n                 <tr>\n                   <td>MasterCard Lost or Stolen</td>\n                   <td>(800) 325-3678</td>\n                 </tr>\n                 <tr>\n                   <td>Express\n                     Check Card Lost or Stolen</td>\n                   <td>(800) 528-2273</td>\n                 </tr>\n                 <tr>\n                   <td>MasterCard Balance Inquiry</td>\n                   <td>(800) 237-6211</td>\n                 </tr> \n              </table>\n              \n              \n\t\t\t  <a name=\"holiday\" id=\"holiday\"></a>\n\t\t\t  <table class=\"locations\">\n                  <tr>\n                    <th colspan=\"2\">Holiday Schedule</th>\n                  </tr>\n                  <tr>\n                    <td colspan=\"2\"></td>\n                  </tr>\n                  <tr> \n                    <td class=\"iright\"> January 18, 2010</td>\n                    <td>Martin Luther King Day</td>\n                  </tr>\n                  <tr> \n                    <td class=\"iright\"> February 15, 2010</td>\n                    <td>Presidents Day</td>\n                  </tr>\n                  <tr>\n                    <td class=\"iright\"> May 31, 2010</td>\n                    <td>Memorial Day</td>\n                  </tr>\n                  <tr> \n                    <td class=\"iright\">July 5, 2010</td>\n                    <td>Independence Day</td>\n                  </tr>\n                  <tr>\n                    <td class=\"iright\">September 5, 2010</td>\n                    <td>Labor Day</td>\n                  </tr>\n                  <tr>\n                    <td class=\"iright\">October 11, 2010</td>\n                    <td>Columbus Day</td>\n                  </tr>\n                  <tr>\n                    <td class=\"iright\">November 25, 2010</td>\n                    <td>Thanksgiving Day</td>\n                  </tr>\n                  <tr>\n                    <td class=\"iright\">December 24, 2010</td>\n                    <td>Christmas Eve</td>\n                  </tr>\n              </table>\n          \n          \n      \t</div>\n      \t</div>\n      </div>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Rails Projects/websites/ClassAct/app/views/home/locations.html.erb:190:in `compile!'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1338:in `perform_action_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/Rails Projects/websites/ClassAct/app/views/home/locations.html.erb:29: syntax error, unexpected tIVAR, expecting kDO or '{' or '('
+...lassact.org", members@classact.org ).to_s); @output_buffer.c...
+                              ^) on line #29 of app/views/home/locations.html.erb:
+26:                 </tr>
+27:                 <tr>
+28:                   <td>Email:</td>
+29:                   <td><%= mail_to "members@classact.org", members@classact.org %></td>
+30:                 </tr>
+31:                 <tr>
+32:                   <td>Hours:</td>
+
+    app/views/home/locations.html.erb:190:in `compile!'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (140.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#locations (for 127.0.0.1 at 2010-09-23 11:16:05) [GET]
+Rendering template within layouts/application
+Rendering home/locations
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/locations]
+
+
+Processing HomeController#locations (for 127.0.0.1 at 2010-09-23 11:16:10) [GET]
+Rendering template within layouts/application
+Rendering home/locations
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/locations]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-23 11:16:35) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#locations (for 127.0.0.1 at 2010-09-23 11:16:40) [GET]
+Rendering template within layouts/application
+Rendering home/locations
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/locations]
+
+
+Processing HomeController#whatsnew (for 127.0.0.1 at 2010-09-23 11:17:15) [GET]
+Rendering template within layouts/application
+Rendering home/whatsnew
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/whatsnew]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 11:17:20) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 11:17:23) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 11:17:24) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 11:17:28) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 11:17:28) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 11:17:32) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 11:17:32) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 11:18:15) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 11:18:15) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 11:19:02) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/home/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 11:19:02) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:19:07) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:19:08) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:19:13) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/home/ratesch]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 11:19:14) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:19:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 11:19:30) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 125ms (View: 109, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:19:32) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:19:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:19:35) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/home/ratesch]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 11:19:35) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:19:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 11:19:37) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 11:19:39) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:19:39) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:21:23) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/home/ratesch]
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:21:23) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/home/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:21:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#images to jpg (for 127.0.0.1 at 2010-09-23 11:21:23) [GET]
+  Parameters: {"id"=>"acctaccess3"}
+
+ActionController::UnknownAction (No action responded to images. Actions: ):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#whatsnew (for 127.0.0.1 at 2010-09-23 11:22:06) [GET]
+Rendering template within layouts/application
+Rendering home/whatsnew
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/whatsnew]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-09-23 11:27:19) [GET]
+Rendering template within layouts/application
+Rendering home/contact
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 109ms (View: 47, DB: 0) | 200 OK [http://localhost/contact]
+
+
+Processing HomeController#whatsnew (for 127.0.0.1 at 2010-09-23 11:27:27) [GET]
+Rendering template within layouts/application
+Rendering home/whatsnew
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/whatsnew]
+
+
+Processing HomeController#community (for 127.0.0.1 at 2010-09-23 11:28:21) [GET]
+Rendering template within layouts/application
+Rendering home/community
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/community]
+
+
+Processing HomeController#checking (for 127.0.0.1 at 2010-09-23 11:28:37) [GET]
+Rendering template within layouts/application
+Rendering home/checking
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/checking]
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:28:54) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:28:54) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#savings (for 127.0.0.1 at 2010-09-23 11:29:01) [GET]
+Rendering template within layouts/application
+Rendering home/savings
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/savings]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:29:11) [GET]
+
+ActionController::RoutingError (No route matches "/ratesch.asp" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#savings (for 127.0.0.1 at 2010-09-23 11:30:52) [GET]
+Rendering template within layouts/application
+Rendering home/savings
+ERROR: compiling _run_erb_app47views47home47savings46html46erb RAISED compile error
+C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:35: syntax error, unexpected ';', expecting ')'
+...th(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\...
+                              ^
+C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:47: syntax error, unexpected ';', expecting ')'
+...th(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\...
+                              ^
+C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:57: syntax error, unexpected ';', expecting ')'
+...th(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\...
+                              ^
+Function body:           def _run_erb_app47views47home47savings46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"main\">\n      <div class=\"innercontent clearfix\">\n      \t<div class=\"padding\">  \n      \t  <p>Whatever your savings needs, Class Act FCU is here to provide savings programs\n      \t    designed with our members in mind. </p>\n      \t  <h1>Regular Share Savings</h1>\n          \n            <blockquote>\n              <p> Your Regular Share Savings account "
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "dividends", rates_path ).to_s); @output_buffer.concat " are \n                calculated daily and credited to your account \n                quarterly.  A minimum deposit of $25 is necessary to open this account.</p>\n              <p> For more information see our "
+
+
+; @output_buffer.concat(( link_to "Rate and Fee Schedule", ratesch_path(:anchor=>"savings") ).to_s); @output_buffer.concat ". </p>\n            </blockquote>\n            \n          <h1>IRA Savings Account</h1>\n          \n            <blockquote>\n              <p>Begin planning your retirement now with an IRA from Class Act FCU.  This \n                tax-deferred account earns "
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "dividends", rates_path ).to_s); @output_buffer.concat " that are \n                calculated daily and credited to your account quarterly.  A daily \n                balance of $25 is required for this account unless you have an IRA \n                Certificate.</p>\n              <p>For more information see our "
+
+
+
+; @output_buffer.concat(( link_to "Rate 
+                and Fee Schedule", ratesch_path(:anchor=>"irasav") ).to_s); @output_buffer.concat ".</p>\n            </blockquote>\n            \n          <h1>Summer Account</h1>\n          \n            <blockquote>\n              <p>Tired of earning no interest on your summer escrow money? At Class Act FCU,\n                you can set up a summer savings account and earn interest on the amount\n                you're putting aside for summer. Then, you have the choice of receiving\n                checks every two weeks during the summer or having Class Act FCU transfer that\n                money directly into your checking account.</p>\n              <p>For more information see our "
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Rate and Fee Schedule", ratesch_path(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\n            </blockquote>\n            \n          <h1>Christmas Club Account</h1>\n          \n            <blockquote>\n              <p>Does Christmas seem to sneak up on you every year? With a Class Act FCU Christmas\n                Club account, your holidays can be more enjoyable.  Combined with \n                Direct Deposit, this account builds throughout the year, and a check is\n                sent to you automatically before the holidays arrive. <a href=\"rates.asp\">Dividends</a> are calculated \n                daily and credited to your account quarterly.  A $5 minimum daily balance \n                is required. </p>\n              <p>For more information see our "
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Rate and Fee Schedule", ratesch_path(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\n            </blockquote>\n            \n          <h1>Vacation Club Account</h1>\n          \n            <blockquote>\n              <p>Planning a vacation, but don't have the money?  Our Vacation Club \n                account is your answer!  Combined with Direct Deposit, this account \n                builds throughout the year, and is available when you're ready for your\n                vacation. A $5 minimum daily balance is required. </p>\n              <p>For more information see our "
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Rate and Fee Schedule", ratesch_path(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\n            </blockquote>\n            \n        </div>\n      </div>\n    </div>"
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:65:in `compile!'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1338:in `perform_action_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:35: syntax error, unexpected ';', expecting ')'
+...th(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\...
+                              ^
+C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:47: syntax error, unexpected ';', expecting ')'
+...th(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\...
+                              ^
+C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:57: syntax error, unexpected ';', expecting ')'
+...th(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\...
+                              ^) on line #35 of app/views/home/savings.html.erb:
+32:                 you're putting aside for summer. Then, you have the choice of receiving
+33:                 checks every two weeks during the summer or having Class Act FCU transfer that
+34:                 money directly into your checking account.</p>
+35:               <p>For more information see our <%= link_to "Rate and Fee Schedule", ratesch_path(:anchor =>" other" %>.</p>
+36:             </blockquote>
+37:             
+38:           <h1>Christmas Club Account</h1>
+
+    app/views/home/savings.html.erb:65:in `compile!'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (62.5ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#savings (for 127.0.0.1 at 2010-09-23 11:30:52) [GET]
+Rendering template within layouts/application
+Rendering home/savings
+ERROR: compiling _run_erb_app47views47home47savings46html46erb RAISED compile error
+C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:35: syntax error, unexpected ';', expecting ')'
+...th(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\...
+                              ^
+C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:47: syntax error, unexpected ';', expecting ')'
+...th(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\...
+                              ^
+C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:57: syntax error, unexpected ';', expecting ')'
+...th(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\...
+                              ^
+Function body:           def _run_erb_app47views47home47savings46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"main\">\n      <div class=\"innercontent clearfix\">\n      \t<div class=\"padding\">  \n      \t  <p>Whatever your savings needs, Class Act FCU is here to provide savings programs\n      \t    designed with our members in mind. </p>\n      \t  <h1>Regular Share Savings</h1>\n          \n            <blockquote>\n              <p> Your Regular Share Savings account "
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "dividends", rates_path ).to_s); @output_buffer.concat " are \n                calculated daily and credited to your account \n                quarterly.  A minimum deposit of $25 is necessary to open this account.</p>\n              <p> For more information see our "
+
+
+; @output_buffer.concat(( link_to "Rate and Fee Schedule", ratesch_path(:anchor=>"savings") ).to_s); @output_buffer.concat ". </p>\n            </blockquote>\n            \n          <h1>IRA Savings Account</h1>\n          \n            <blockquote>\n              <p>Begin planning your retirement now with an IRA from Class Act FCU.  This \n                tax-deferred account earns "
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "dividends", rates_path ).to_s); @output_buffer.concat " that are \n                calculated daily and credited to your account quarterly.  A daily \n                balance of $25 is required for this account unless you have an IRA \n                Certificate.</p>\n              <p>For more information see our "
+
+
+
+; @output_buffer.concat(( link_to "Rate 
+                and Fee Schedule", ratesch_path(:anchor=>"irasav") ).to_s); @output_buffer.concat ".</p>\n            </blockquote>\n            \n          <h1>Summer Account</h1>\n          \n            <blockquote>\n              <p>Tired of earning no interest on your summer escrow money? At Class Act FCU,\n                you can set up a summer savings account and earn interest on the amount\n                you're putting aside for summer. Then, you have the choice of receiving\n                checks every two weeks during the summer or having Class Act FCU transfer that\n                money directly into your checking account.</p>\n              <p>For more information see our "
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Rate and Fee Schedule", ratesch_path(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\n            </blockquote>\n            \n          <h1>Christmas Club Account</h1>\n          \n            <blockquote>\n              <p>Does Christmas seem to sneak up on you every year? With a Class Act FCU Christmas\n                Club account, your holidays can be more enjoyable.  Combined with \n                Direct Deposit, this account builds throughout the year, and a check is\n                sent to you automatically before the holidays arrive. <a href=\"rates.asp\">Dividends</a> are calculated \n                daily and credited to your account quarterly.  A $5 minimum daily balance \n                is required. </p>\n              <p>For more information see our "
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Rate and Fee Schedule", ratesch_path(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\n            </blockquote>\n            \n          <h1>Vacation Club Account</h1>\n          \n            <blockquote>\n              <p>Planning a vacation, but don't have the money?  Our Vacation Club \n                account is your answer!  Combined with Direct Deposit, this account \n                builds throughout the year, and is available when you're ready for your\n                vacation. A $5 minimum daily balance is required. </p>\n              <p>For more information see our "
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to "Rate and Fee Schedule", ratesch_path(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\n            </blockquote>\n            \n        </div>\n      </div>\n    </div>"
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:65:in `compile!'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1338:in `perform_action_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+C:/Ruby187/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/Ruby187/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:35: syntax error, unexpected ';', expecting ')'
+...th(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\...
+                              ^
+C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:47: syntax error, unexpected ';', expecting ')'
+...th(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\...
+                              ^
+C:/Rails Projects/websites/ClassAct/app/views/home/savings.html.erb:57: syntax error, unexpected ';', expecting ')'
+...th(:anchor =>" other" ).to_s); @output_buffer.concat ".</p>\...
+                              ^) on line #35 of app/views/home/savings.html.erb:
+32:                 you're putting aside for summer. Then, you have the choice of receiving
+33:                 checks every two weeks during the summer or having Class Act FCU transfer that
+34:                 money directly into your checking account.</p>
+35:               <p>For more information see our <%= link_to "Rate and Fee Schedule", ratesch_path(:anchor =>" other" %>.</p>
+36:             </blockquote>
+37:             
+38:           <h1>Christmas Club Account</h1>
+
+    app/views/home/savings.html.erb:65:in `compile!'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (140.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#savings (for 127.0.0.1 at 2010-09-23 11:31:17) [GET]
+Rendering template within layouts/application
+Rendering home/savings
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/savings]
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:31:48) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:31:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#savings (for 127.0.0.1 at 2010-09-23 11:32:14) [GET]
+Rendering template within layouts/application
+Rendering home/savings
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/savings]
+
+
+Processing HomeController#savings (for 127.0.0.1 at 2010-09-23 11:32:14) [GET]
+Rendering template within layouts/application
+Rendering home/savings
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/savings]
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:32:20) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:32:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#loans (for 127.0.0.1 at 2010-09-23 11:32:29) [GET]
+Rendering template within layouts/application
+Rendering home/loans
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://localhost/loans]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 11:32:39) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#certs (for 127.0.0.1 at 2010-09-23 11:32:43) [GET]
+Rendering template within layouts/application
+Rendering home/certs
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/certs]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 11:32:49) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#privacy (for 127.0.0.1 at 2010-09-23 11:33:04) [GET]
+Rendering template within layouts/application
+Rendering home/privacy
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/privacy]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 11:33:28) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#ratesch (for 127.0.0.1 at 2010-09-23 11:33:32) [GET]
+Rendering template within layouts/application
+Rendering home/ratesch
+Rendered layouts/_header (78.1ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://localhost/ratesch]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 11:33:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/getacro.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#privacy (for 127.0.0.1 at 2010-09-23 12:24:46) [GET]
+Rendering template within layouts/application
+Rendering home/privacy
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/privacy]
+
+
+Processing HomeController#privacy (for 127.0.0.1 at 2010-09-23 12:24:46) [GET]
+Rendering template within layouts/application
+Rendering home/privacy
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/privacy]
+
+
+Processing HomeController#hb_loginv3_2 (for 127.0.0.1 at 2010-09-23 12:24:51) [GET]
+Rendering template within layouts/application
+Rendering home/hb_loginv3_2
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/hb_loginv3_2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 12:24:52) [GET]
+
+ActionController::RoutingError (No route matches "/barrow.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#hb_loginv3_2 (for 127.0.0.1 at 2010-09-23 12:26:10) [GET]
+Rendering template within layouts/application
+Rendering home/hb_loginv3_2
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/hb_loginv3_2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 12:26:11) [GET]
+
+ActionController::RoutingError (No route matches "/barrow.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#hb_loginv3_2 (for 127.0.0.1 at 2010-09-23 12:26:22) [GET]
+Rendering template within layouts/application
+Rendering home/hb_loginv3_2
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/hb_loginv3_2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-23 12:26:23) [GET]
+
+ActionController::RoutingError (No route matches "/barrow.gif" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-23 12:30:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 12:30:20) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 12:30:26) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 12:31:45) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (62.5ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 109ms (View: 109, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-23 12:31:50) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 12:31:56) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#whatsnew (for 127.0.0.1 at 2010-09-23 12:34:57) [GET]
+Rendering template within layouts/application
+Rendering home/whatsnew
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 62ms (View: 62, DB: 0) | 200 OK [http://localhost/whatsnew]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 12:35:08) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 125ms (View: 109, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-23 12:35:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 12:35:39) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]

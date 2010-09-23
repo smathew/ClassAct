@@ -1,0 +1,123 @@
+<div id="main">
+			<div class="innercontent clearfix">
+				<div class="left">
+                    <div id="manual_slideshow" class="slidecontent">
+                    
+                        <div class="contentdiv">
+                            <%= link_to image_tag("slideshow/facebook.jpg", :alt => ""), "http://www.facebook.com/pages/Louisville-KY/Class-Act-Federal-Credit-Union/83411577780" %>
+                            </p>
+                        </div>
+                        <div class="contentdiv">
+							<%= link_to image_tag("slideshow/onlineaccountopening.jpg"), "https://secure.andera.com/index.cfm?fiid=C1A4D5A86FD242B78C663906FBCF123C" %>
+						</p>
+                        </div>
+                        <div class="contentdiv">
+                            <%= link_to image_tag("slideshow/HonorsChecking.jpg", :alt => ""), whatsnew_path(:anchor => "honors") %></p>
+                        </div>
+                        <div class="contentdiv">
+                            <%= link_to image_tag("slideshow/MyCUMortgage.jpg", :alt => ""), "http://www.mycumortgagehomeloans.com/default.asp?siteId=B342883A-CB8C-4E07-BD50-09B8D10FDF1E" %></p>
+                        </div>
+                        <div class="contentdiv">
+                            <%= link_to image_tag("slideshow/community.jpg"), community_path %></p>
+                        </div>
+                    </div>
+                    <div id="paginate-manual_slideshow" class="pagination">
+                    </div>
+                    <script type="text/javascript">
+                    featuredcontentslider.init({
+                        id: "manual_slideshow",  
+                        contentsource: ["inline", ""],  
+                        toc: "#increment",  
+                        nextprev: ["", ""],  
+                        revealtype: "click", 
+                        enablefade: [true, 0.2], 
+                        autorotate: [true, 3000],  
+                        onChange: function(previndex, curindex){  
+                        }
+                    })
+                    </script>
+                    <p>&nbsp;</p>
+					<h1 class="redbar">Latest News</h1>
+					<div class="text">
+						<h2>Online Account Opening Now Available!</h2>
+						<p>Do you know someone that wants to  open an account with the Credit Union, but can&rsquo;t get here during normal  business hours?&nbsp; Well, this new product is just for them!&nbsp; Class Act  FCU now offers online account opening!&nbsp; Just <%= link_to "click  here", "https://secure.andera.com/index.cfm?fiid=C1A4D5A86FD242B78C663906FBCF123C", :rel => "external" %> for secure online account opening to begin.&nbsp; </p>
+                      <p>Already a member?  &nbsp;You can open a new checking account or add a share certificate to your  account through this secure site as well.&nbsp; Now that&rsquo;s exciting!&nbsp; <%= link_to "Check  it out today!", "https://secure.andera.com/index.cfm?fiid=C1A4D5A86FD242B78C663906FBCF123C", :rel => "external" %></p>
+<h2>&nbsp;</h2>
+                    </div>
+				</div>
+				<div class="right">
+					<div class="rates">
+						<h2 class="centertext redbar">Current Rates</h2>
+						<p class="smalltext centertext">
+							Rates Effective
+							<br />
+							<%= Time.now.strftime("%A, %B %d, %Y") %>
+						</p>
+						<table>
+							<caption>Loan Rates</caption>
+							<tbody>
+								<tr>
+									<td class="first">New Auto</td>
+									<td class="centertext">as&nbsp;low&nbsp;as</td>
+									<td class="righttext"><%= link_to "4.25%", rates_path(:anchor=>"loans"), :class => "red" %></td>
+								</tr>
+								<tr>
+									<td class="first">Used Auto</td>
+									<td class="centertext">as low as</td>
+									<td class="righttext"><%= link_to "4.25%", rates_path(:anchor=>"loans"), :class => "red" %></td>
+								</tr>
+								<tr>
+									<td class="first">Personal</td>
+									<td class="centertext">as low as</td>
+									<td class="righttext"><%= link_to "7.50%", rates_path(:anchor=>"loans"), :class => "red" %></td>
+								</tr>
+								<tr>
+									<td class="first">MasterCard Gold</td>
+									<td class="centertext">as low as</td>
+									<td class="righttext"><%= link_to "9.90%", rates_path(:anchor=>"loans"), :class => "red" %></td>
+								</tr>
+							</tbody>
+						</table>
+						<table>
+							<caption>Share Certificate Rates (APY*)</caption>
+							<tbody>
+								<tr>
+									<td class="first">6 Month</td>
+									<td class="righttext"><%= link_to "1.25%", rates_path(:anchor =>"cert"), :class => "red" %></td>
+								</tr>
+								<tr>
+									<td class="first">1 Year</td>
+									<td class="righttext"><%= link_to "1.50%", rates_path(:anchor =>"cert"), :class => "red" %></td>
+								</tr>
+								<tr>
+									<td class="first">18 Month</td>
+									<td class="righttext"><%= link_to "1.60%", rates_path(:anchor =>"cert"), :class => "red" %></td>
+								</tr>
+								<tr>
+									<td class="first">24 Month</td>
+									<td class="righttext"><%= link_to "2.00%", rates_path(:anchor =>"cert"), :class => "red" %></td>
+								</tr>
+								<tr>
+									<td class="first">36 Month</td>
+									<td class="righttext"><%= link_to "2.35%", rates_path(:anchor =>"cert"), :class => "red" %></td>
+								</tr>
+							</tbody>
+						</table>
+						<p class="centertext">
+							<strong>
+								Find out how you can earn a <%= link_to ".25% bonus", whatsnew_path(:anchor => "increase") %>
+								on new certificates of deposit for a limited time!
+							</strong>
+						</p>
+						<p><strong>*Annual Percentage Yield</strong></p>
+						<p><strong><%= link_to "View all rates", rates_path %></strong></p>
+					</div>
+					<div class="ratesj cafcu">
+						<h2 class="centertext redbar">CAFCU Newsletter</h2>
+					<%= link_to image_tag("newsletter.jpg", :alt => "Newsletter"), "newsletter/Summer_10n.pdf", :rel=>"external" %>
+                        <p class="centertext">
+                            <%= link_to image_tag("communityoutreach_icon.jpg", :alt =>"Community Outreach"), community_path %></p>
+                    </div>
+                </div>
+			</div>
+		</div>

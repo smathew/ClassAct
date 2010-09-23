@@ -1,0 +1,61 @@
+<div id="container">
+		<div class="header clearfix">
+			<%= link_to image_tag("New Image.JPG", :alt => ""), root_path %>
+			<%= link_to image_tag("acctaccess3.jpg", :alt=>""), hb_loginv3_2_path, :class=>"hblogin", :rel=>"external" %>
+		</div>
+		<ul id="menu" class="clearfix">       
+			<li>
+				<a href="#" class="first">About Class Act</a>
+				<ul>
+					<li><%= link_to "Branch Hours  &amp; Locations", locations_path %></li>
+					<li><%= link_to "Contact us", contact_path %></li>
+					<li><%= link_to "Eligible to Join?", whatsnew_path(:anchor => "eligible") %></li>
+					<li><%= link_to "Community Involvement", community_path %></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Financial Services</a>
+				<ul>
+					<li><%= link_to "Full Service Checking Accounts", checking_path %></li>
+					<li><%= link_to "Savings Accounts", savings_path %></li>
+					<li><%= link_to "Low Rate Loans", loans_path %></li>
+					<li><%= link_to "Certificates / IRA's", certs_path %></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Online Services</a>
+				<ul>
+					<li><%= link_to "Account Login", hb_loginv3_2_path, :class=>"hblogin", :rel=>"external" %></li>
+                    <li><%= link_to "Open New Account", "https://secure.andera.com/index.cfm?fiid=C1A4D5A86FD242B78C663906FBCF123C", :class=>"hblogin", :rel=>"external" %></li>
+					<li><%= link_to "Order Checks", "https://reorder.libertysite.com/", :rel=>"confirm external" %></li>
+					<li><%= link_to "Apply for a Loan", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356&amp;LReqFormIdNr=2251210000216194617&amp;ORIGIN_CHANNEL_ID=4922930000206123721&amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel=>"external" %></li>
+					<li><%= link_to "Apply for a 1st Mortgage Loan", "http://www.mycumortgagehomeloans.com/default.asp?siteId=B342883A-CB8C-4E07-BD50-09B8D10FDF1E", :rel=>"external" %></li>
+					<li><%= link_to "MasterCard Online", "https://www.ezcardinfo.com/", :rel=>"confirm external" %></li>
+					<li><%= link_to "Privacy Policy", privacy_path, :rel=>"external" %></li>
+					<li><%= link_to "Pay Bills Demo", "https://www.billpaysite.com/V2/Demo.aspx?instID=38879", :rel=>"external" %></li>
+					<li><%= link_to "Opt-in to Overdraft Coverage", "https://www.regulation-e.com/form/index.aspx?kc=CAFCU87952", :rel=> "external" %></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Rates  &amp; Fees</a>
+				<ul>
+					<li><%= link_to "Share Rates", rates_path(:anchor => "shares") %></li>
+					<li><%= link_to "Certificate Rates", rates_path(:anchor => "cert") %></li>
+					<li><%= link_to "Loan Rates", rates_path(:anchor => "loans") %></li>
+					<li><%= link_to "Fee Disclosure", ratesch_path %></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Info Center</a>
+				<ul>
+					<li><%= link_to "Branch Hours  &amp; Locations", locations_path %></li>
+					<li><%= link_to "CU News", whatsnew_path %></li>
+					<li><%= link_to "Find ATM's", "http://www.atmallianceone.org/allianceone/", :rel=>"confirm external" %></li>
+					<li><%= link_to "Holidays", locations_path(:anchor=> "holiday") %></li>
+					<li><%= link_to "Find a Shared Branch", "http://www.creditunion.net/", :rel=>"confirm external" %></li>
+                    <li><%= link_to "Foolproof Financial Education", "http://www.foolproofonline.info/cu/interface/KY/classact.htm", :rel=>"confirm external" %></li>
+				</ul>
+			</li>
+			<li><%= link_to "Home", root_path %></li>
+		</ul>
+		<div id="content" class="clearfix">

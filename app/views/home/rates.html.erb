@@ -1,0 +1,349 @@
+			<h1>Current Rates</h1>
+			<ul>
+				<li><%= link_to "Share Rates", :anchor =>"shares" %></li>
+				<li><%= link_to "Share Certificate Rates", :anchor =>"cert" %></li>
+				<li><%= link_to "Loan Rates", :anchor =>"loans" %></li>
+			</ul>
+			<p>
+				For more information about Class Act FCU dividends, see our <%= link_to "Rate and Fee Schedule", ratesch_path %>.
+			</p>
+			<hr />
+			<a name="shares"></a>
+			<h2>Share Rates</h2>
+			<%= Time.now.strftime("%A, %B %d, %Y") %>
+			<table class="rates2">
+				<thead>
+					<tr>
+						<th>Description</th>
+						<th>Dividend Rate</th>
+						<th>Annual <br />Percentage<br /> Yield</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Regular Share Savings<br />$25-$2,499.99<br />$2,500+</td>
+						<td><br />.20%<br />.40%</td>
+						<td><br />.20%<br />.40%</td>
+					</tr>
+					<tr>
+						<td>Money Market Account:<br />$2,500-$9,999.99<br />$10,000-$24,999.99<br />$25,000+.</td>
+						<td><br />.50%<br />.75%<br /> 1.00%</td>
+						<td><br />.50%<br /> .75%<br />1.01%</td>
+					</tr>
+					<tr>
+						<td>Summer Savings / Check</td>
+						<td>.25</td>
+						<td>.26</td>
+					</tr>
+					<tr>
+						<td>IRA Accumulation</td>
+						<td>.50</td>
+						<td>.50</td>
+					</tr>
+					<tr>
+						<td>Christmas Club</td>
+						<td>.25</td>
+						<td>.25</td>
+					</tr>
+					<tr>
+						<td>Summer Savings / Transfer</td>
+						<td>.25</td>
+						<td>.25</td>
+					</tr>
+				</tbody>
+			</table>
+			<p>
+				Share accounts will be calculated on the daily balance and posted quarterly on the last
+				day of the current quarter. Dividends will be paid monthly on the daily balance using the
+				Rising Method calculation.
+			</p>
+			<p class="smalli">
+				NOTE: If you close one of the above listed accounts before the accrued
+				dividends are credited, the dividend will not be paid.
+			</p>
+			<hr />
+			<a name="cert"></a>
+			<h2>Share Certificate Rates</h2>
+			<p>
+				<%= Time.now.strftime("%A, %B %d, %Y") %>
+			</p>
+			<table class="rates2">
+				<thead>
+					<tr>
+						<th>Description</th>
+						<th>Term</th>
+						<th>Minimum</th>
+						<th>Dividend Rate</th>
+						<th>Annual Percentage Yield</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Share Certificate</td>
+						<td>91 Day</td>
+						<td>$500</td>
+						<td>.99</td>
+						<td>1.00</td>
+					</tr>
+					<tr>
+						<td>Share Certificate</td>
+						<td>6 Month</td>
+						<td>$500</td>
+						<td>1.24</td>
+						<td>1.25</td>
+					</tr>
+					<tr>
+						<td>Share Certificate</td>
+						<td>1 Year</td>
+						<td>$1,000</td>
+						<td>1.49</td>
+						<td>1.50</td>
+					</tr>
+					<tr>
+						<td>Share Certificate</td>
+						<td>18 Month</td>
+						<td>$1,000</td>
+						<td>1.59</td>
+						<td>1.60</td>
+					</tr>
+					<tr>
+						<td>Share Certificate</td>
+						<td>24 Month</td>
+						<td>$1,000</td>
+						<td>1.98</td>
+						<td>2.00</td>
+					</tr>
+					<tr>
+						<td>Share Certificate</td>
+						<td>30 Month</td>
+						<td>$1,000</td>
+						<td>2.08</td>
+						<td>2.10</td>
+					</tr>
+					<tr>
+						<td>Share Certificate</td>
+						<td>36 Month</td>
+						<td>$1,000</td>
+						<td>2.32</td>
+						<td>2.35</td>
+					</tr>
+					<tr>
+						<td>Share Certificate</td>
+						<td>48 Month</td>
+						<td>$1,000</td>
+						<td>2.57</td>
+						<td>2.60</td>
+					</tr>
+					<tr>
+						<td>IRA Share Certificate</td>
+						<td>6 Month</td>
+						<td>$1,000</td>
+						<td>1.24</td>
+						<td>1.25</td>
+					</tr>
+					<tr>
+						<td>IRA Share Certificate</td>
+						<td>12 Month</td>
+						<td>$1,000</td>
+						<td>1.49</td>
+						<td>1.50</td>
+					</tr>
+					<tr>
+						<td>IRA Share Certificate</td>
+						<td>18 Month</td>
+						<td>$1,000</td>
+						<td>1.59</td>
+						<td>1.60</td>
+					</tr>
+					<tr>
+						<td>IRA Share Certificate</td>
+						<td>24 Month</td>
+						<td>$1,000</td>
+						<td>1.98</td>
+						<td>2.00</td>
+					</tr>
+					<tr>
+						<td>IRA Share Certificate</td>
+						<td>30 Month</td>
+						<td>$1,000</td>
+						<td>2.08</td>
+						<td>2.10</td>
+					</tr>
+					<tr>
+						<td>IRA Share Certificate</td>
+						<td>36 Month</td>
+						<td>$1,000</td>
+						<td>2.32</td>
+						<td>2.35</td>
+					</tr>
+					<tr>
+						<td>IRA Share Certificate</td>
+						<td>48 Month</td>
+						<td>$1,000</td>
+						<td>2.57</td>
+						<td>2.60</td>
+					</tr>
+				</tbody>
+			</table>
+			<hr />
+			<a name="loans"></a>
+			<h2>Loan Rates</h2>
+			<p>
+				<%= Time.now.strftime("%A, %B %d, %Y") %>
+			</p>
+			<p>
+				<%= link_to "Apply for a loan online!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356&amp;LReqFormIdNr=2251210000216194617&amp;ORIGIN_CHANNEL_ID=4922930000206123721&amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %>
+			</p>
+			<table class="rates2">
+				<thead>
+					<tr>
+						<th>Description</th>
+						<th>Maximum Amt</th>
+						<th>Maximum Term</th>
+						<th>Annual Percentage Rate</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>New  &amp; Used<br />Autos and Light Trucks<br />2009 - 2005 Models:</td>
+						<td>100% of Purchase Price or NADA value</td>
+						<td>36 Months</td>
+						<td>as low as 4.25%*</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>New  &amp; Used <br />Autos and Light Trucks<br />2009 - 2005 Models:</td>
+						<td>100% of Purchase Price or NADA value</td>
+						<td>48 Months</td>
+						<td>as low as 4.25%*</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>New  &amp; Used<br />Autos and Light Trucks<br />2009 - 2005 Models:</td>
+						<td>100% of Purchase Price or NADA value</td>
+						<td>60 Months</td>
+						<td>as low as 4.25%*</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>New  &amp; Used<br />Autos and Light Trucks<br />2009 - 2005 Models:</td>
+						<td>Purchase price exceeding $20,000</td>
+						<td>72 Months</td>
+						<td>as low as 5.25%*</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel =>"external" %></td>
+					</tr>
+					<tr>
+						<td>Used<br />Autos and Light Trucks<br />2004 - 2000 Models:</td>
+						<td>100% of Purchase Price or NADA value</td>
+						<td>36 Months</td>
+						<td>as low as 5.25%*</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>Used<br />Autos and Light Trucks<br />2004 - 2000 Models:</td>
+						<td>100% of Purchase Price or NADA value</td>
+						<td>48 Months</td>
+						<td>as low as 5.25%*</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>Recreational Vehicles<br />2004 - 2008 Models:</td>
+						<td>90% of Purchase Price or NADA value</td>
+						<td>36 Months</td>
+						<td>as low as 5.50%*</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>Recreational Vehicles<br />2004 - 2008 Models:</td>
+						<td>100% of Purchase Price or NADA value</td>
+						<td>48 Months</td>
+						<td>as low as 5.75%*</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>Recreational Vehicles<br />2004 - 2008 Models:</td>
+						<td>100% of Purchase Price or NADA value</td>
+						<td>60 Months<br />(other terms available)</td>
+						<td>as low as 6.00%*</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>New and Used Boats</td>
+						<td>90% of Purchase Price</td>
+						<td>60 Months<br />(other terms available)</td>
+						<td>as low as 6.00%*</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>Personal/Signature</td>
+						<td>$20,000</td>
+						<td>48 Months</td>
+						<td>as low as 7.50%*</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>Classic Cash Line of Credit</td>
+						<td>$15,000</td>
+						<td>Open-End</td>
+						<td>15.00</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>MasterCard® Class A</td>
+						<td>$5,000</td>
+						<td>Open-End</td>
+						<td>10.90</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=0060328220305160521 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>MasterCard® Gold</td>
+						<td>$15,000</td>
+						<td>Open-End</td>
+						<td>9.90</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=1940010000216195530 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>Share Secured</td>
+						<td>100% of Shares</td>
+						<td>48 Months</td>
+						<td>3.75 + Share Rate</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>Share Certificate Secured</td>
+						<td>100% of Shares</td>
+						<td>Certificate Maturity Date</td>
+						<td>2.75 + Cert Rate</td>
+						<td><%= link_to "Apply Now!", "https://www.loanliner.com/ICE/presenter/default.asp?CuIdNr=01601356 &amp;LReqFormIdNr=2251210000216194617 &amp;ORIGIN_CHANNEL_ID=4922930000206123721 &amp;ORIGIN_LOCATION_ID=4922930000206123721", :rel => "external" %></td>
+					</tr>
+					<tr>
+						<td>Home Equity Loans</td>
+						<td>80% Loan to value</td>
+						<td>15 years / 10 years draw**</td>
+						<td>as low as 3.25%*</td>
+						<td><%= mail_to "tmeibers@classact.org", "Contact Us!" %></td>
+					</tr>
+					<tr>
+						<td>Closed End Fixed Rate<br /><i>2nd Mortgage</i></td>
+						<td>$100,000</td>
+						<td>10 years</td>
+						<td>as low as 5.00%*</td>
+						<td><%= mail_to "tmeibers@classact.org", "Contact Us!" %></td>
+					</tr>
+					<tr>
+						<td>Mortgage Loans<br /><i>1st Mortgages</i></td>
+						<td>80% of appraised value</td>
+						<td>15 years</td>
+						<td>Please call for quote<br /> 502-212-3145*</td>
+						<td><%= link_to "Apply Now!", "http://www.mycumortgagehomeloans.com/default.asp?siteId=B342883A-CB8C-4E07-BD50-09B8D10FDF1E", :rel => "external" %></td>
+					</tr>
+				</tbody>
+			</table>
+			<p class="smalli">
+				* Late Charges: A $20 late payment charge will be assessed on payments received 15 days from date payment is due. 
+				**Real estate late payment charge will be assessed at 5% of the payment amount for payments received 15 days from date 
+				payment is due. ***Rate reflects discounts applied for payroll deduction, direct deposit and down payment. Annual Percentage 
+				Rate. Effective September 30, 2008, Prime Rate is 4.50%. Rates are subject to change. Members must meet credit requirements. 
+				Based on borrower qualifications. Higher rates may be applicable based on credit performance, credit terms, and model year of 
+				vehicle. Not available for the refinancing of existing Class Act FCU loans.
+			</p>

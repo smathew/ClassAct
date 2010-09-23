@@ -1,0 +1,410 @@
+<div id="main">
+      <div class="innercontent clearfix">
+      	<div class="padding">
+        
+          <div class="bottomline">
+            <h1>Rate  &amp; Fee Schedule</h1>
+            <ol>
+              <li><%= link_to "Rate  &amp; Fee Schedule", :anchor => "RATE" %></li>
+              <li><%= link_to "Electronic Funds Transfer Disclosure", "images/eft.pdf" %>
+              <%= link_to "(Acrobat Reader Required)", "http://www.adobe.com/prodindex/acrobat/readstep.html" %>
+              <%= link_to image_tag("getacro.gif", :alt =>"get acrobat reader"), "http://www.adobe.com/prodindex/acrobat/readstep.html" %></li>
+              <li><%= link_to "Fee Schedule", :anchor => "fee" %></li>
+            </ol>
+            
+            <blockquote>
+              <h1>Rate  &amp; Fee Schedule</h1>
+              <p>Various rates, fees, and charges apply to your accounts with the Credit Union, 
+              depending on the type of account:</p>
+              <ul>
+                <li><%= link_to "Regular Share Savings", :anchor => "savings" %></li>
+                <li><%= link_to "Share Draft Accounts, Including Classic 55 Club", :anchor => "draft" %></li>
+                <li><%= link_to "Other Savings, Including Special, Insurance, Christmas, Vacation, and Summer Accounts", :anchor => "other" %></li>
+                <li><%= link_to "Share Certificates, Including IRA Certificates", :anchor => "cert" %></li>
+                <li><%= link_to "IRA Savings Accounts", :anchor => "irasav" %></li>
+                <li><%= link_to "Disclosures", :anchor => "discl" %></li>
+              </ul>
+            </blockquote>
+            
+			<p class="smalli">The Credit Union reserves the right to change
+              the terms and conditions of these accounts from time to time without notice
+              to you unless provided by law.</p>
+          </div>
+            <div class="bottomline">
+              <a name="savings" id="savings"></a>
+              <h1>Regular Share Savings</h1>
+              <blockquote>
+                <h2>Rate Information</h2>
+                <p>Your dividend <%= link_to "rate", rates_path %> and annual percentage rate 
+                  may change at any time, at our discretion.</p>
+                  
+                <h2>Minimum Balance Requirements</h2>
+                <p>You must maintain a minimum daily balance of $25.00.</p>
+                
+                <h2>Fees</h2>
+                <p>Fees may be charged on your account.  See <%= link_to "Fee Schedule", :anchor => "fee" %> below.</p>
+                
+                <h2>Transaction Limitations</h2>
+                <p>You may make only 3 pre-authorized transfers from your account.  There are no
+                  limitations governing checks withdrawn at any branch office, as well as no
+                  limitations governing ATM transactions.</p>
+              </blockquote>
+            </div>
+            <div class="bottomline">
+              <a name="draft" id="draft"></a>
+              <h1>Share Draft Accounts, Including Classic 55 Club</h1>
+              
+                <blockquote>
+                  <h2>Rate Information</h2>
+                  <p>Your dividend <%= link_to "rate", rates_path %> and annual percentage rate 
+                  may change at any time, at our discretion.</p>
+
+                  <h2>Minimum Balance Requirements</h2>
+                  <p>There is no minimum balance required in this account.</p>
+                 
+                  <h2>Fees</h2>
+                  <p>There are no monthly service fees on this account.  Other fees may be charged on your account.  
+                  See <%= link_to "Fee Schedule", :anchor => "fee" %> below.</p>
+
+                  <h2>Transaction Limitations</h2>
+                  <p>You may make unlimited transactions on your account each month.</p>
+                </blockquote>
+                
+            </div>
+            <div class="bottomline">
+              <a name="other" id="other"></a>
+              <h1>Other Savings, Including Special, Insurance, Christmas, 
+                Vacation, and Summer Accounts</h1>
+              <blockquote>
+                <h2>Rate Information</h2>
+                  <p>Your dividend <%= link_to "rate", rates_path %> and annual percentage rate 
+                  may change at any time, at our discretion.</p>
+               
+                <h2>Compounding and Crediting</h2>
+                  <p>Dividends are calculated daily and credited to your account quarterly.  If
+                  you close your account before the accrued dividends are credited, the dividend
+                  will not be paid.</p>
+                  
+                <h2>Minimum Balance Requirements</h2>
+                  <p>You must maintain a minimum daily balance of $5.00.</p>
+                   
+                <h2>Fees</h2>
+                  <p>Fees may be charged on your account.  See <%= link_to "Fee Schedule", :anchor => "fee" %> below.</p>
+                  
+                <h2>Transaction Limitations</h2>
+                  <p>You may make 3 electronic transfers from your account.  There are no
+                  limitations governing checks withdrawn at any branch office, as well as no
+                  limitations governing ATM transactions.</p>
+              </blockquote>
+            </div>
+          <div class="bottomline">
+              <a name="cert" id="cert"></a>
+              <h1>Share Certificates, Including IRA Certificates</h1>
+              <blockquote>
+                <p># <%= link_to "Rate Information", rates_path(:anchor => "cert") %></p>
+                <h2>Compounding and Crediting</h2>
+                <p>Dividends are compounded daily and credited to your account 
+                  monthly, quarterly, or at maturity according to the following:</p>
+				<p>The dividend period is (monthly, quarterly). For example, if an
+                  account is opened January 1, the beginning date for the first dividend
+                  period is January 1, and the ending date of such dividend period is
+                  (January 31, March 31).  All other dividend periods follow this same
+                  pattern of dates until maturity, when the final dividend would be credited.</p>
+
+                <h2>Minimum Balance Requirements</h2>
+                  <p>For 91 day and 6 month share certificates, you must deposit a minimum 
+                  of $500 to open this account, except for IRA certificates, which must have
+                  a minimum deposit of $1,000.</p>
+                  
+                <p>For all other share certificates, you must deposit a minimum of 
+                  $1,000 to open this account.  You must maintain the above stated
+                  minimum daily balance to maintain the account.</p>
+                  
+                <h2>Fees </h2>
+                  <p>Fees may be charged on your account.  See <%= link_to "Fee Schedule", :anchor =>"fee" %> below.</p>
+                
+                <h2>Transaction Limitations </h2>
+                  <p>After the account is opened, you may not make deposits into the account 
+                  until the maturity date stated on the certificate.</p>
+                  
+                <h2>Early Withdrawal Penalties </h2>
+                  <p>We may impose a penalty if you withdraw any funds other than dividends before
+                  the maturity date.  If the withdrawal will lower the balance of the 
+                  certificate lower than the minimum stated on the certificate, then the 
+                  certificate will be cancelled.</p>
+                  
+                <p>Any funds withdrawn before maturity will receive the dividend rate last 
+                  declared on Regular Share Savings from the date of issuance or renewal 
+                  until the date of withdrawal.</p>
+                  
+                <p>Further penalty will be imposed by the forfeiture of the smaller of:  
+                  dividends accrued since issuance or renewal, or 90 days dividends.</p>
+                  
+                <p>In certain cases specified in federal regulations, penalties shall not
+                  apply.</p>
+                  
+                <h2> Renewal Policies</h2>
+                  <p>Your share certificate will automatically renew at maturity.</p> 
+              </blockquote>
+          </div>
+
+
+
+
+
+
+
+
+
+
+            <div class="bottomline">
+              <a name="irasav" id="irasav"></a>
+              <h1>IRA Savings Accounts</h1>
+              <blockquote>
+                <h2> Rate Information </h2>
+                  <p>Your dividend <%= link_to "rate", rates_path %> and annual percentage rate 
+                  may change at any time, at our discretion.</p>
+                  
+                <p> Compounding and Crediting Dividends are calculated daily and credited to your account quarterly.</p>
+                
+                <p> Minimum Balance Requirements <br />No minimum balance is required to open the account.  You must maintain a 
+                  daily balance of $25 in the account, except when you have an IRA 
+                  Certificate: then there is no minimum requirement for the IRA Savings.</p>
+                  
+                <h2>Fees</h2>
+                  <p>Fees may be charged on your account.  See <%= link_to "Fee Schedule", :anchor => "fee" %> below.</p>
+                  
+                <h2>Transaction Limitations</h2>
+                  <p>The transaction limitations on IRA accounts are governed by separate 
+                  regulations and will be supplied to you upon specific request for IRA
+                  information.</p>
+              </blockquote>
+            </div>
+            <div class="bottomline">
+              <a name="discl" id="discl"></a>
+              <h1>The following disclosures apply to ALL accounts.</h1>
+              <blockquote>
+                <h2>Nature of Dividends</h2>
+                  <p>Dividends are paid from current income and available earnings after 
+                  required transfers to reserves at the end of the dividend period.
+                  The <%= link_to "Dividend Rate and Annual Percentage Yield", rates_path %> are the prospective
+                  rates and yields that the Credit Union anticipates paying for the 
+                  applicable dividend period.</p>
+                  
+                <h2>Compounding and Crediting</h2>
+                  <p>The Dividend Period begins on the first calendar day of the period
+                  and ends on the last calendar day of the period.</p>
+                   
+                <h2>Balance Computation Method</h2>
+                  <p>We use the daily balance method to calculate dividends on your account.  
+                  This method applies a daily periodic rate to the principal in the account
+                  each day.</p>
+                  
+                <h2>Accrual of Dividends</h2>
+                  <p>Dividends will begin to accrue on the business day you deposit non-cash
+                  items (for example, checks) to your account.</p>
+              </blockquote>
+            </div>
+            <div class="bottomline">
+              <a name="fee" id="fee"></a>
+              <h1>Fee schedule for the following services:</h1>
+              <ul>
+                <li><%= link_to "Savings Services", :anchor => "savings" %></li>
+                <li><%= link_to "Share Draft Services", :anchor => "drafts" %></li>
+                <li><%= link_to "Member Services", :anchor => "member" %></li>
+              </ul>
+              
+              <a name="savings" id="savings"></a>
+              <h1>Savings Services</h1>
+              
+			  <table class="ratesleft">
+                <tr>
+                  <td>To open a regular share savings account within 6 months of closing one </td>
+                  <td>$15.00</td>
+                </tr>
+                <tr>
+                  <td>Return Deposit Item</td>
+                  <td>$10.00</td>
+                </tr>
+                <tr>
+                  <td>Dormant Account</td>
+                  <td>$5.00 per month</td>
+                </tr>
+                <tr>
+                  <td>Transfer Fee (to cover ACH  &amp; ATM clearings)</td>
+                  <td>$1.00 per transfer (max. $3.00 per day)</td>
+                </tr>
+                <tr>
+                  <td>Phone Request Withdrawals (except <i>Express Line</i>)</td>
+                  <td>$1.00</td>
+                </tr>
+                <tr>
+                  <td>Microfilm Copy of Statement</td>
+                  <td>$1.00 per page</td>
+                </tr>
+                <tr>
+                  <td>Mail Non-Month-End Printout of Statement</td>
+                  <td>$1.00 per page</td>
+                </tr>
+                <tr>
+                  <td>Immediate Availability of Out-of-State Checks </td>
+                  <td>$3.00</td>
+                </tr>
+              </table>
+              
+              <a name="drafts" id="drafts"></a>
+              <h1>Share Draft Services</h1>
+              <p>&nbsp;</p>
+              
+              <table class="ratesleft">
+                <tr>
+                  <td>Classic 55 Club</td>
+                  <td>No monthly service fee/free drafts</td>
+                </tr>
+                <tr>
+                  <td>Regular Share Draft/Service Fee</td>
+                  <td>No monthly service fee</td>
+                </tr>
+                <tr>
+                  <td>NSF Draft</td>
+                  <td>$25.00</td>
+                </tr>
+                <tr>
+                  <td>Certified Drafts</td>
+                  <td>$5.00</td>
+                </tr>
+                <tr>
+                  <td>Return Deposit Item</td>
+                  <td>$10.00</td>
+                </tr>
+                <tr>
+                  <td>Microfilm Copy of Draft</td>
+                  <td>$2.00 per item</td>
+                </tr>
+                <tr>
+                  <td>Microfilm Copy of Statement</td>
+                  <td>$1.00 per page</td>
+                </tr>
+                <tr>
+                  <td>Mail Non-Month-End Printout of Statement</td>
+                  <td>$1.00</td>
+                </tr>
+                <tr>
+                  <td>Stop Payment </td>
+                  <td>$15.00 for series; $15.00 per item non-series</td>
+                </tr>
+                <tr>
+                  <td>Stop Payment for NSF Draft</td>
+                  <td>$25.00</td>
+                </tr>
+                <tr>
+                  <td>Counter Checks 3<sup>rd</sup> party</td>
+                  <td>$2.00</td>
+                </tr>
+                <tr>
+                  <td>Research Fee (Statement Balancing)</td>
+                  <td>$10.00 per hour</td>
+                </tr>
+                <tr>
+                  <td>Immediate Availability of Out-of-State Checks</td>
+                  <td>$3.00</td>
+                </tr>
+                <tr>
+                  <td>Temporary Checks</td>
+                  <td>$3.00 per pack</td>
+                </tr>
+                <tr>
+                  <td>Share Drafts (prices vary) - Basic</td>
+                  <td>$14.00 for 150 checks</td>
+                </tr>
+              </table>
+              
+              <a name="member" id="member"></a>
+              <h1>Member Services</h1>
+          	  <p>&nbsp;</p>
+              
+              <table class="ratesleft">
+                <tr>
+                  <td>ATM Transactions</td>
+                  <td>1<sup>st</sup> 5 w/d free each month; $1.00 per w/d after 5 (except CTFCU ATM)</td>
+                </tr>
+                <tr>
+                  <td>ATM/ACH Overdraft</td>
+                  <td>$25.00</td>
+                </tr>
+                <tr>
+                  <td>Replace Loan Payment Coupon Book</td>
+                  <td>$12.00</td>
+                </tr>
+                <tr>
+                  <td>Extra ATM Card</td>
+                  <td>$5.00</td>
+                </tr>
+                <tr>
+                  <td>Certified Checks</td>
+                  <td>$5.00</td>
+                </tr>
+                <tr>
+                  <td>Money Orders</td>
+                  <td>$2.00</td>
+                </tr>
+                <tr>
+                  <td rowspan="3">Traveler's Checks</td>
+                  <td>Single w/checking - free</td>
+                </tr>
+                <tr>
+                  <td>Single w/o checking - 1% of purchase</td>
+                </tr>
+                <tr>
+                  <td>Dual  - 1.5% of purchase</td>
+                </tr>
+                <tr>
+                  <td rowspan="3">Safe Deposit Boxes</td>
+                  <td>3&quot; x 5&quot;:   = $10.00;       3&quot; x 10:  = $20.00</td>
+                </tr>
+                <tr>
+                  <td>5&quot; x 10&quot; = $25.00;      10&quot; x 10&quot; = $40.00</td>
+                </tr>
+                <tr>
+                  <td>20% discount to Classic Club members</td>
+                </tr>
+                <tr>
+                  <td>Safe Deposit Box Lost Key</td>
+                  <td>$10.00  (if both keys lost, $120 drill)</td>
+                </tr>
+                <tr>
+                  <td>Domestic Wire Transfer Fee</td>
+                  <td>$20.00</td>
+                </tr>
+                <tr>
+                  <td>International Wire Transfer Fee</td>
+                  <td>$30.00</td>
+                </tr>
+                <tr>
+                  <td>Western Union Money Order</td>
+                  <td>Call for quote</td>
+                </tr>
+                <tr>
+                  <td>Garnishment/Levy Fee</td>
+                  <td>$25.00</td>
+                </tr>
+                <tr>
+                  <td>Amusement Park Tickets</td>
+                  <td>Call for quote</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">FAX Service</td>
+                  <td>Local - $1.00 first page; $0.50 thereafter</td>
+                </tr>
+                <tr>
+                  <td>Long Distance - $1.50 per page</td>
+                </tr>
+                <tr>
+                  <td>USPS Return Mail Fee (w/ No Forwarding Address)</td>
+                  <td>$2</td>
+                </tr>
+              </table>          
+			
+      	</div>
+      </div>
+    </div>
