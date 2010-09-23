@@ -3312,3 +3312,27 @@ Rendering home/rates
 Rendered layouts/_header (0.0ms)
 Rendered layouts/_footer (15.6ms)
 Completed in 62ms (View: 47, DB: 0) | 200 OK [http://localhost/rates]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-23 13:30:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 188ms (View: 188, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-09-23 14:41:52) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 187ms (View: 187, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#rates (for 127.0.0.1 at 2010-09-23 14:42:00) [GET]
+Rendering template within layouts/application
+Rendering home/rates
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (15.6ms)
+Completed in 78ms (View: 78, DB: 0) | 200 OK [http://localhost/rates]

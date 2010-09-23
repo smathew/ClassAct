@@ -47,7 +47,7 @@ function hasElementClass(element, className) {
 	if (!cls)
 		return false;
 
-	//return arrayStringContains( cls, className );
+	return arrayStringContains( cls, className );
 }
 
 function removeElementClass(element, className) {
